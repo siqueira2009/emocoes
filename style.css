@@ -46,6 +46,10 @@ main hr {
     text-align: center;
 }
 
+.titulosResponsivos {
+    display: none;
+}
+
 #escolhas {
     display: flex;
     gap: 10px;

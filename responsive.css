@@ -21,7 +21,13 @@
     }
 
     main {
+        flex-direction: column-reverse;
         width: 90%;
+    }
+
+    #resultado {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     #escolhas {
@@ -32,8 +38,12 @@
         display: none;
     }
 
-    #escolhas hr {
+    .titulosResponsivos {
         display: block;
+    }
+
+    #tituloEscolhas, #tituloResultado {
+        display: none;
     }
 
     #resultado {
