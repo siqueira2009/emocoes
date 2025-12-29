@@ -1,0 +1,47 @@
+@media screen and (max-width: 360px) {
+    main {
+        display: none;
+    }
+
+    body::before {
+        content: "🤏 Tela muito pequena!";
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        padding: 20px;
+        align-items: start;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    #escolhas {
+        flex-direction: column;
+    }
+
+    #escolhas p {
+        display: none;
+    }
+
+    #escolhas hr {
+        display: block;
+    }
+
+    #resultado {
+        flex-direction: column;
+    }
+
+    #resultadoNome, #resultadoDesc {
+        width: 100%;
+        font-size: 20px;
+    }
+}

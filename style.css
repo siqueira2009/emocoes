@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CabinetGrotesk-Medium";
+}
+
+body, html {
+    background-color: #f1f1f1;
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Parte central > Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #d7d8ea;
+}
+
+main p {
+    padding: 8px 0;
+}
+
+main hr {
+    background-color: rgba(0, 0, 0, 0.622);
+    height: 2px;
+    border: none;
+    border-radius: 4px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+#escolhas {
+    display: flex;
+    gap: 10px;
+}
+
+.escolhasDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.escolhasEmocoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.escolhasDiv input {
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px #4950cb solid;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.escolhasDiv button {
+    border: 2px #4950cb solid;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+    font-size: 18px;
+}
+
+.escolhasDiv button:hover {
+    background-color: #4950cb;
+    color: white;
+}
+
+.escolhasDiv button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.escolhasDiv button:disabled:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.escolhasDiv button.selecionado {
+    background-color: #4950cb;
+    color: white;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+#resultadoNome, #resultadoDesc {
+    border: 2px #4950cb solid;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#resultadoNome {
+    width: 25%;
+}
+
+#resultadoDesc {
+    width: 75%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roda de Plutchik</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="cabinet-grotesk.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <main>
+            <h1 class="titulos">Escolhas</h1>
+            <div id="escolhas">
+                <div class="escolhasDiv" id="escolhaEsquerda">
+                    <input type="text" placeholder="Escolha uma emoção..." disabled id="inputEsquerda" class="inputEmocoes"/>
+    
+                    <div class="escolhasEmocoes" id="emocoesEsquerda">
+                        <button class="opcao" value="Alegria">Alegria</button>
+                        <button class="opcao" value="Confiança">Confiança</button>
+                        <button class="opcao" value="Medo">Medo</button>
+                        <button class="opcao" value="Surpresa">Surpresa</button>
+                        <button class="opcao" value="Antecipação">Antecipação</button>
+                        <button class="opcao" value="Raiva">Raiva</button>
+                        <button class="opcao" value="Tristeza">Tristeza</button>
+                    </div>
+                </div>
+
+                <p>com</p>
+                <hr>
+
+                <div class="escolhasDiv" id="escolhaDireita">
+                    <input type="text" placeholder="Escolha uma emoção..." disabled id="inputDireita" class="inputEmocoes"/>
+    
+                    <div class="escolhasEmocoes" id="emocoesDireita">
+                        <button class="opcao" value="Nojo">Nojo</button>
+                        <button class="opcao" value="Confiança">Confiança</button>
+                        <button class="opcao" value="Medo">Medo</button>
+                        <button class="opcao" value="Surpresa">Surpresa</button>
+                        <button class="opcao" value="Antecipação">Antecipação</button>
+                        <button class="opcao" value="Raiva">Raiva</button>
+                        <button class="opcao" value="Tristeza">Tristeza</button>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="titulos">Resultado</h1>
+            <div id="resultado">
+                <h3 id="resultadoNome">🦗 Nada</h3>
+                <h3 id="resultadoDesc">🍃 Escolha duas emoçoes</h3>
+            </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
