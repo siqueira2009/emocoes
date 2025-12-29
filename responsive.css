@@ -54,4 +54,8 @@
         width: 100%;
         font-size: 20px;
     }
+
+    main input {
+        display: none;
+    }
 }
